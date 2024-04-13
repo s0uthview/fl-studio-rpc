@@ -1,4 +1,12 @@
-# FL Studio Discord RPC
+# fl studio discord rpc
 
-This is a work-in progress project that will display information about your current FL Studio project on your Discord rich presence.
-I'm working on this as my first real Rust project.
+this is a work-in progress project that will display information about your current fl studio project on your discord rich presence.
+this was created to gain a basic understanding of the Rust language
+
+## run it yourself!
+
+if you want to run it yourself simply run:
+`git clone https://github.com/s0uthview/fl-studio-rpc.git`
+
+then do:
+`cargo build`
