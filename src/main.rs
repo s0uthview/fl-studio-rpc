@@ -21,7 +21,9 @@ async fn main() {
     drpc.start(); // start the rpc client
 
     let s = System::new_all();
+
     // todo: add the image for FL studio to the rich presence
+    // todo: add external interaction with winapi to view window titles
     
     let update_process = task::spawn(async move {
         let mut interval = time::interval(Duration::from_secs(1));
