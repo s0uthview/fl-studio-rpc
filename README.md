@@ -5,8 +5,8 @@ this was created to gain a basic understanding of the Rust language
 
 ## run it yourself!
 
-if you want to run it yourself simply run:
+if you want to run it yourself simply run:\
 `git clone https://github.com/s0uthview/fl-studio-rpc.git`
 
-then do:
+then do:\
 `cargo build`
