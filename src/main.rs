@@ -32,16 +32,14 @@ async fn main() {
 
         loop {
             interval.tick().await;
-            
-            let runtime: u64;
         
             let process_name: &str = "FL Studio";
 
-            // find DAW instances
+            // find instances of FL studio
             let process = s.processes_by_name("FL64")
                 .next()
                 .expect("No DAW processes found.");
-            runtime = process.run_time();
+            let runtime: u64 = process.run_time();
 
             if let Err(msg) = drpc.set_activity(|a| a
                         .state(process_name)
