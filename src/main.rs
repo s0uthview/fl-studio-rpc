@@ -7,6 +7,8 @@ use tokio::{
     time,
 };
 
+mod winapi;
+
 const CLIENT_KEY: u64 = 1228513276720058388; // replace this value with the client key for your discord application
 
 #[tokio::main]

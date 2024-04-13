@@ -175,6 +175,7 @@ dependencies = [
  "discord-rpc-client",
  "sysinfo",
  "tokio",
+ "winapi",
 ]
 
 [[package]]
