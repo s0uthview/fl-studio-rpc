@@ -42,7 +42,9 @@ async fn main() {
             // Set activity
             if let Err(msg) = drpc.set_activity(|a| a
                 .state(process_name)
-                .assets(|asset| asset.large_image("fl-studio"))
+                .assets(|asset| 
+                    asset.large_image("pon3")
+                        .large_text("dj pon3")) // hehehehe :3 :3 :3
             )
             {
                 eprintln!("Failed to set presence: {}", msg)
